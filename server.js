@@ -11,6 +11,7 @@ const mongoose = require('mongoose');
 
 // + Require mongodb's DB and mongodb's MongoClient
 const Db = require('mongodb').Db;
+const MongoClient = require('mongodb').MongoClient;
 
 // + Connect to database
 mongoose.connect(process.env.MONGO_URI, {
